@@ -1,0 +1,387 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1769053717170615, "dur":16042, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1769053717186663, "dur":55, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1769053717186741, "dur":1045, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1769053717188586, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1769053717188679, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1769053717190781, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":0, "ts":1769053717191580, "dur":85, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1769053717187811, "dur":5001, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1769053717192813, "dur":3822885, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1769053721015700, "dur":555, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1769053721016547, "dur":8642, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1769053717187351, "dur":5468, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1769053717192824, "dur":4187, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1769053717197024, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1769053720890898, "dur":2411, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1769053720893503, "dur":11900, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.BuildTools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720905404, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720905541, "dur":2936, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.CSharpSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720908478, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.DotNet.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720908559, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.NativeProgramSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720908651, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
+,{ "pid":12345, "tid":1, "ts":1769053720908764, "dur":3119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.GNU.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720911883, "dur":2962, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.LLVM.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720914846, "dur":1627, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.VisualStudio.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720916474, "dur":556, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.Xcode.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720917031, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Tools.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720917129, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720917294, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeLocalCacheTool.exe" }}
+,{ "pid":12345, "tid":1, "ts":1769053720917388, "dur":1468, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720918857, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\NiceIO.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720918984, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720919114, "dur":911, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720920026, "dur":659, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720920686, "dur":964, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720921651, "dur":540, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720922191, "dur":701, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720922893, "dur":574, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720923468, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Api.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720923531, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720923663, "dur":484, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Options.dll" }}
+,{ "pid":12345, "tid":1, "ts":1769053720893311, "dur":30837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1769053720924301, "dur":86888, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1769053721013432, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1769053721013431, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1769053721013498, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1769053717187420, "dur":5406, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1769053717192829, "dur":860, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1769053717193690, "dur":3367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1769053717197059, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1769053718657412, "dur":247164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1769053718904621, "dur":1573, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GameJams\\Train_Game_Jam\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1769053718904621, "dur":1574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1769053718906205, "dur":103353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1769053719025808, "dur":217325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1769053719243202, "dur":176180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1769053719419428, "dur":159936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1769053719579582, "dur":142267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1769053719721896, "dur":1293850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1769053717187504, "dur":5336, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1769053717192843, "dur":1057, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1769053717193900, "dur":3223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1769053717197128, "dur":2007, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1769053717197123, "dur":2013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1769053717673161, "dur":941095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1769053718614296, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1769053718614295, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1769053718614429, "dur":66845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1769053718681323, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1769053718681322, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1769053718681455, "dur":275676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1769053718957188, "dur":70645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1769053719027885, "dur":260303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1769053719288250, "dur":155425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1769053719443899, "dur":245297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1769053719689259, "dur":100131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1769053719798765, "dur":1217002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1769053717187477, "dur":5355, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1769053717192836, "dur":890, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1769053717193727, "dur":3404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1769053717197151, "dur":2428, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1769053717197133, "dur":2447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1769053717822977, "dur":791274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1769053718614301, "dur":139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1769053718614300, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1769053718614448, "dur":289415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1769053718903918, "dur":651, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GameJams\\Train_Game_Jam\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1769053718903917, "dur":653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1769053718904579, "dur":102779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1769053719008876, "dur":139524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1769053719148455, "dur":267867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1769053719416525, "dur":162787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1769053719579387, "dur":179710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1769053719759157, "dur":1256518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1769053717187529, "dur":5317, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1769053717192850, "dur":1106, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1769053717193957, "dur":3199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1769053717197168, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1769053717197157, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1769053718517191, "dur":150882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1769053718668116, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1769053718668116, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1769053718668229, "dur":288917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1769053718957203, "dur":171568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1769053719128860, "dur":269832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1769053719398775, "dur":160941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1769053719559761, "dur":149376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1769053719709202, "dur":114600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1769053720677257, "dur":338427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1769053717187557, "dur":5295, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1769053717192856, "dur":1048, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1769053717193904, "dur":3254, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1769053717197163, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1769053717197159, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1769053718903803, "dur":78175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1769053718982067, "dur":148147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1769053719130277, "dur":269744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1769053719400087, "dur":159672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1769053719559805, "dur":144325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1769053719704193, "dur":119474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1769053719823778, "dur":1191929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1769053717187587, "dur":5283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1769053717192894, "dur":893, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1769053717193788, "dur":3358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1769053717197151, "dur":1623, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1769053717197147, "dur":1628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1769053720692846, "dur":198246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1769053720891132, "dur":124563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1769053717187612, "dur":5284, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1769053717192912, "dur":818, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1769053717193730, "dur":3317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1769053717197049, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1769053718906553, "dur":75882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1769053718982497, "dur":148055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1769053719130609, "dur":276877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1769053719407566, "dur":157245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1769053719565424, "dur":150172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1769053719715662, "dur":963753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1769053720679586, "dur":336202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1769053717187642, "dur":5279, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1769053717192937, "dur":355, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1769053717193292, "dur":3733, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1769053717197033, "dur":1970, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":9, "ts":1769053717197026, "dur":1979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1769053720696072, "dur":195002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1769053720891123, "dur":124554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1769053717187665, "dur":5270, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1769053717192935, "dur":4099, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1769053717197036, "dur":712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1769053719686629, "dur":87344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1769053719774023, "dur":1241647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1769053717188076, "dur":5042, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1769053717193118, "dur":4041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1769053717197167, "dur":239, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1769053717197161, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1769053718993293, "dur":150497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1769053719143895, "dur":263595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1769053719407549, "dur":152777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1769053719560369, "dur":155217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1769053719715646, "dur":963777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1769053720679650, "dur":336118, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1769053717188148, "dur":4984, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1769053717193133, "dur":3918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1769053717197064, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1769053719399107, "dur":62477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1769053719462245, "dur":227904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1769053719690371, "dur":108369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1769053719823691, "dur":1191991, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1769053717187766, "dur":5240, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1769053717193006, "dur":4034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1769053717197078, "dur":1664, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":13, "ts":1769053717197042, "dur":1701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1769053720689253, "dur":5251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1769053720694691, "dur":321091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1769053717187803, "dur":5217, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1769053717193021, "dur":4010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1769053717197055, "dur":2030, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1769053717197033, "dur":2054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1769053718612718, "dur":55364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1769053718668282, "dur":619, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1769053718668280, "dur":623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1769053718668945, "dur":313030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1769053718982063, "dur":148153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1769053719130401, "dur":269660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1769053719400210, "dur":160050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1769053719560315, "dur":155285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1769053719715663, "dur":1300016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1769053717187827, "dur":5206, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1769053717193034, "dur":3982, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1769053717917509, "dur":187117, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":15, "ts":1769053718104630, "dur":100193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/app.info" }}
+,{ "pid":12345, "tid":15, "ts":1769053718204841, "dur":458430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/app.info" }}
+,{ "pid":12345, "tid":15, "ts":1769053718663275, "dur":289, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1769053718663274, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1769053718664081, "dur":263480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1769053718927745, "dur":1046, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GameJams\\Train_Game_Jam\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1769053718927743, "dur":1049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1769053718928802, "dur":97829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1769053719027039, "dur":219917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1769053719247184, "dur":186941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1769053719437687, "dur":248945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1769053719686701, "dur":100801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1769053719787562, "dur":1228187, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1769053717187851, "dur":5189, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1769053717193041, "dur":3977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1769053717197037, "dur":12877, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1769053717197024, "dur":12891, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1769053717209930, "dur":709344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1769053717919319, "dur":453, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1769053717919318, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1769053718055953, "dur":608155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1769053718664304, "dur":1656, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1769053718664302, "dur":1659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1769053718665971, "dur":262390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1769053718928407, "dur":3014, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GameJams\\Train_Game_Jam\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1769053718928406, "dur":3016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1769053718931429, "dur":95269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1769053719027404, "dur":248139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1769053719275616, "dur":167915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1769053719443582, "dur":245619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1769053719689243, "dur":79589, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1769053719689242, "dur":79592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1769053719768849, "dur":910803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":16, "ts":1769053720679693, "dur":336065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1769053717187885, "dur":5190, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1769053717193075, "dur":3968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1769053717197045, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":17, "ts":1769053718942257, "dur":84454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":17, "ts":1769053719026772, "dur":248774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1769053719275611, "dur":158545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1769053719437716, "dur":240348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1769053719678153, "dur":109345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1769053719787568, "dur":1228121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1769053717187864, "dur":5205, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1769053717193069, "dur":3991, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1769053717197095, "dur":1492, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":18, "ts":1769053717197062, "dur":1526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":18, "ts":1769053720682168, "dur":7067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":18, "ts":1769053720689272, "dur":326475, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1769053717187915, "dur":5167, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1769053717193082, "dur":3945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1769053717197029, "dur":713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":19, "ts":1769053719560387, "dur":153036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":19, "ts":1769053719713484, "dur":964027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/level0" }}
+,{ "pid":12345, "tid":19, "ts":1769053720677624, "dur":338128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1769053717187933, "dur":5155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1769053717193088, "dur":3966, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1769053717197116, "dur":1489, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":20, "ts":1769053717197067, "dur":1539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1769053720686418, "dur":6657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1769053720693121, "dur":322592, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1769053717187956, "dur":5138, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1769053717193094, "dur":3952, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1769053717197068, "dur":1419, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":21, "ts":1769053717197046, "dur":1442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":21, "ts":1769053720677267, "dur":9169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":21, "ts":1769053720686476, "dur":329263, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1769053717187973, "dur":5126, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1769053717193100, "dur":3968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1769053717197069, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":22, "ts":1769053718613094, "dur":55017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":22, "ts":1769053718668162, "dur":167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":22, "ts":1769053718668162, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":22, "ts":1769053718668337, "dur":273567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":22, "ts":1769053718942158, "dur":85257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":22, "ts":1769053719027825, "dur":260687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1769053719288568, "dur":165977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1769053719454612, "dur":236256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1769053719690910, "dur":3370, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":22, "ts":1769053719690909, "dur":3373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":22, "ts":1769053719694323, "dur":104399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":22, "ts":1769053719823692, "dur":1192000, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1769053717187991, "dur":5114, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1769053717193105, "dur":3976, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1769053717197111, "dur":2767, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":23, "ts":1769053717197102, "dur":2777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":23, "ts":1769053717917580, "dur":696838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":23, "ts":1769053718614463, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":23, "ts":1769053718614462, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":23, "ts":1769053718614552, "dur":289885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":23, "ts":1769053718904483, "dur":386, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GameJams\\Train_Game_Jam\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":23, "ts":1769053718904483, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":23, "ts":1769053718904912, "dur":102442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":23, "ts":1769053719008872, "dur":138947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1769053719147875, "dur":267239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1769053719416327, "dur":162971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1769053719579367, "dur":141228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1769053719720776, "dur":1294967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1769053717188040, "dur":5070, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1769053717193111, "dur":4002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1769053717197162, "dur":507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":24, "ts":1769053717197671, "dur":55, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1769053719560032, "dur":144779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":24, "ts":1769053719704856, "dur":118836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/resources.assets" }}
+,{ "pid":12345, "tid":24, "ts":1769053719823829, "dur":1191927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1769053717188058, "dur":5057, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1769053717193116, "dur":3969, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1769053717197120, "dur":22437, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":25, "ts":1769053717197085, "dur":22473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":25, "ts":1769053717919157, "dur":695147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":25, "ts":1769053718614408, "dur":332, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":25, "ts":1769053718614406, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":25, "ts":1769053718614785, "dur":67340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":25, "ts":1769053718682171, "dur":51060, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GameJams\\Train_Game_Jam\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":25, "ts":1769053718682170, "dur":51063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":25, "ts":1769053718733248, "dur":239956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":25, "ts":1769053718991914, "dur":156508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1769053719148471, "dur":266649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1769053719416328, "dur":162977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1769053719579359, "dur":136244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1769053719715656, "dur":963764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":25, "ts":1769053720679588, "dur":336153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1769053717188092, "dur":5031, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1769053717193123, "dur":4031, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1769053717197186, "dur":573, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":26, "ts":1769053717197156, "dur":605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":26, "ts":1769053719715599, "dur":961811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":26, "ts":1769053720677458, "dur":338252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1769053717187721, "dur":5233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1769053717192956, "dur":4064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1769053717197024, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":27, "ts":1769053718153636, "dur":510444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":27, "ts":1769053718664133, "dur":852, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
+,{ "pid":12345, "tid":27, "ts":1769053718664133, "dur":853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":27, "ts":1769053718664997, "dur":263367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":27, "ts":1769053718928410, "dur":2966, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GameJams\\Train_Game_Jam\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":27, "ts":1769053718928410, "dur":2966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":27, "ts":1769053718931385, "dur":95321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":27, "ts":1769053719027460, "dur":248078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1769053719275604, "dur":158491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1769053719437657, "dur":152177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1769053719591066, "dur":182910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1769053719774027, "dur":1241646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1769053717188115, "dur":5012, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1769053717193128, "dur":3984, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1769053717197121, "dur":1900, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":28, "ts":1769053717197112, "dur":1910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam.exe" }}
+,{ "pid":12345, "tid":28, "ts":1769053717482707, "dur":621922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam.exe" }}
+,{ "pid":12345, "tid":28, "ts":1769053718204829, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":28, "ts":1769053718204829, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":28, "ts":1769053718205008, "dur":459077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":28, "ts":1769053718664140, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":28, "ts":1769053718664139, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":28, "ts":1769053718664244, "dur":263239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":28, "ts":1769053718927535, "dur":1300, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\GameJams\\Train_Game_Jam\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":28, "ts":1769053718927534, "dur":1302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":28, "ts":1769053718928843, "dur":97866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":28, "ts":1769053719027419, "dur":221117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1769053719248596, "dur":185495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1769053719437659, "dur":154585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1769053719592302, "dur":181061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1769053719773412, "dur":1242259, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1769053717187744, "dur":5254, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1769053717192999, "dur":4020, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":29, "ts":1769053717197041, "dur":1132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":29, "ts":1769053717197024, "dur":1149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":29, "ts":1769053720679139, "dur":8902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":29, "ts":1769053720688083, "dur":327616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1769053717188180, "dur":4957, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1769053717193137, "dur":3885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":30, "ts":1769053717197080, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":30, "ts":1769053719398709, "dur":63507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":30, "ts":1769053719462280, "dur":236644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":30, "ts":1769053719707094, "dur":116558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":30, "ts":1769053719823765, "dur":1191936, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1769053717188201, "dur":4941, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1769053717193142, "dur":3895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1769053717197039, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":31, "ts":1769053719130127, "dur":169535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":31, "ts":1769053719461514, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":31, "ts":1769053719299730, "dur":161857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1769053719462243, "dur":231519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":31, "ts":1769053719693816, "dur":10716, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":31, "ts":1769053719693816, "dur":10717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":31, "ts":1769053719704543, "dur":119257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":31, "ts":1769053720677283, "dur":338447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1769053717188222, "dur":4925, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1769053717193147, "dur":3928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":32, "ts":1769053717197081, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":32, "ts":1769053719244212, "dur":173380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":32, "ts":1769053719417770, "dur":294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.3.20f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1769053719417767, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1769053719418103, "dur":161190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1769053719579357, "dur":141743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Train_GameJam_Project/Train_Game_Jam_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":32, "ts":1769053719721156, "dur":1294530, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1769053721042638, "dur":6455, "ph":"X", "name": "ProfilerWriteOutput" }
+,
